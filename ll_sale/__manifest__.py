@@ -14,7 +14,15 @@
         'mail'
     ],
     "data": [
+        #1 security
         "security/ir.model.access.csv",
+        #2 data
+
+        #3 view
+        "views/sale_order.xml",
+
+        #4 wizard
+        "wizards/send_quotation.xml",
     ],
     "application": True,
     "installable": True,
